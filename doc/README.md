@@ -1,0 +1,1 @@
+Case Study of http://www.adakin.co. My attempt to rebuild the homepage for educational purposes.
