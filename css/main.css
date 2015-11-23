@@ -95,9 +95,67 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
+body {
+    padding: 0;
+    max-width: 100%;
+}
 
+img {
+    max-width: 100%;
+}
 
+.nav-bars {
+    position: fixed;
+    top: 1.5em;
+    right: 1.5em;
+    background: #000;
+    padding: .75em 1em;
+    color: #878787;
+}
+
+.background-image {
+    display: block;
+    position: relative;
+    z-index: -10;
+    width: 100%;
+}
+
+.product-thumb {
+    position: relative;
+    float: left;
+    width: 50%;
+    padding: 1em;
+}
+
+.page-footer img {
+    width: 10%;
+}
+
+.rotate {
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+/* Firefox */
+-moz-transform: rotate(-90deg);
+/* IE */
+-ms-transform: rotate(-90deg);
+/* Opera */
+-o-transform: rotate(-90deg);
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+.page-footer {
+    text-align: center;
+}
 
 
 
