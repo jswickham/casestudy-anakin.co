@@ -21,23 +21,30 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <header class="page-header">
-        <nav class="nav-bars"><i class="fa fa-bars"></nav>
-        <img src="img/triangle.svg" alt="triangle"> 
-        <img src="img/blitz.svg" alt="zig-zag">
+    <nav class="main-nav">
+      <ul>
+        <li><img src="img/blitz.svg" alt="zig-zag"></li>
+        <li><img src="img/triangle.svg" alt="triangle"> </li>
+        <li><i class="fa fa-bars"></i></li>
+      </ul> 
+    </nav>
+
+    <header class="page-header" id="top">
         <h1>Anakin</h1>
     </header>
 
-    <div>
-      <img class="background-image" src="img/cat.jpg" alt="cat">
-    </div>
-
     <section class="about">
-      <div class="rotate"><a href="#">work</a>-<a href="#">feed</a></div>
-      <img src="img/design-studio.svg" alt="design studio palm tree">
-      <a href="#"><img src="img/client-login.svg" alt="CL diamond"></a>
-      <p>Anakin is a bavarian design studio specializing in design craftsmanship and creative use of digital technology.</p>
-      <img src="img/anakin-logo-circle.svg" alt="Anakin Circle">
+      <div>
+        <ul>
+          <li><div class="rotate"><a href="#">work</a>-<a href="#">feed</a></div></li>
+          <li><img src="img/design-studio.svg" alt="design studio palm tree"></li>
+          <li><a href="#"><img src="img/client-login.svg" alt="CL diamond"></a></li>
+        </ul>
+      </div>
+
+        <p>Anakin is a bavarian design studio specializing in design craftsmanship and creative use of digital technology.</p>
+        <a href="#"><img src="img/anakin-logo-circle.svg" alt="Anakin Circle" class="rotate-img"></a>
+      </div>
     </section>
 
     <section>
@@ -47,68 +54,79 @@
       </div>
     </section>
 
-    <section>
-      <img src="img/recent.svg" alt="recent work">
+    <section class="recent-work">
+      <img src="img/recent.svg" alt="recent work" class="top-logo">
+
     <div class="clearfix">
-      <a href="#">
-        <article class="product-thumb">
-          <h3></h3>
-          <img src="img/1.jpg">
-        </article>
-      </a>
+      <div class="works">
 
-       <a href="#">
-        <article class="product-thumb">
-          <h3></h3>
-          <img src="img/6.jpg">
-        </article>
-      </a>
+        <a href="#">
+          <article class="product-thumb">
+            <div class="title">
+              <h3>Cote &amp Ubler</h3>
+            </div>
+            <img src="img/1.jpg">
+          </article>
+        </a>
 
-       <a href="#">
-        <article class="product-thumb">
-          <h3></h3>
-          <img src="img/7.jpg">
-        </article>
-      </a>
+         <a href="#">
+          <article class="product-thumb">
+              <div class="title">
+               <h3>AIIR</h3>
+              </div>
+            <img src="img/6.jpg">
+          </article>
+        </a>
 
-       <a href="#">
-        <article class="product-thumb">
-          <h3></h3>
-          <img src="img/3.jpg">
-        </article>
-      </a>
+         <a href="#">
+          <article class="product-thumb">
+              <div class="title">
+                <h3>Dant</h3>
+              </div>
+            <img src="img/7.jpg">
+          </article>
+        </a>
 
-       <a href="#">
-        <article class="product-thumb">
-          <h3></h3>
-          <img src="img/4.jpg">
-        </article>
-      </a>
+         <a href="#">
+          <article class="product-thumb">
+            <h3></h3>
+            <img src="img/3.jpg">
+          </article>
+        </a>
 
-       <a href="#">
-        <article class="product-thumb">
-          <h3></h3>
-          <img src="img/5.jpg">
-        </article>
-      </a>
+         <a href="#">
+          <article class="product-thumb">
+            <h3></h3>
+            <img src="img/4.jpg">
+          </article>
+        </a>
 
-       <a href="#">
-        <article class="product-thumb">
-          <h3></h3>
-          <img src="img/2.jpg">
-        </article>
-      </a>
+         <a href="#">
+          <article class="product-thumb">
+            <h3></h3>
+            <img src="img/5.jpg">
+          </article>
+        </a>
+
+         <a href="#">
+          <article class="product-thumb">
+            <h3></h3>
+            <img src="img/2.jpg">
+          </article>
+        </a>
+      </div>
     </div>
     </section>
 
     <footer class="page-footer">
-      <img src="img/aofc-member.svg">
-      <div class="rotate"><a href="#">imprint</a></div>
+      <div class"rotate-img">
+      <a href="#"><img src="img/aofc-member.svg" ></a></div>
+      <div class=""><a href="#">imprint</a></div>
       <i class="fa fa-facebook"></i>
       <i class="fa fa-vimeo"></i>
       <i class="fa fa-instagram"></i>
       <i class="fa fa-behance"></i>
-      <div class="rotate"><a href="#">back to top</a></div>
+      <div class=""><a href="#top">back to top</a></div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
