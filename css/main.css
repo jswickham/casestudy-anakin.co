@@ -113,7 +113,8 @@ html {
 }
 
 body {
-    margin: 0;
+    font-family: 'Volkhov', serif;
+    margin: 3em 0 0 0;
     max-width: 100%;
     position: relative;
     padding: 0;
@@ -147,15 +148,42 @@ li {
 
 
 
-/* Navbar */
+/* Header */
+
+.title-header {
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  top: 6%;
+  transform: translate(-50%, -50%);
+}
+
+.page-header {
+  padding-bottom: 17em;
+  position: relative;
+}
+
+.left-header {
+  position: absolute;
+  left: 3%;
+  width: 5%;
+}
+
+.center-header {
+  position: absolute;
+  width: 8%;
+  left: 50%;
+  top: 4%;
+  transform: translate(-50%, -50%);
+}
 
 .nav-bars {
     position: fixed;
-    top: 1.5em;
-    right: 1.5em;
+    right: 5%;
     background: #000;
-    padding: .375em .5em;
+    padding: .75em 1em;
     color: #878787;
+    z-index: 9;
 }
 
 .rotate {
@@ -175,13 +203,37 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
 /* About Content */
 
-.about img {
+.page-section img {
   width: 20%;
 }
 
-.about {
+.page-section {
+  position: relative;
   background: #fff;
   text-align: center;
+  margin: 0;
+  padding: 3em;
+}
+
+.about-header-left {
+  position: absolute;
+  left: 3%;
+  width: 5%;
+  top: 10%;
+}
+
+.about-header-right {
+  position: absolute;
+  right: 3%;
+  top: 5%;
+  width: 40%;
+}
+
+}
+
+.see-through {
+  margin: 0;
+  padding:0;
 }
 
 
@@ -231,15 +283,6 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 .page-footer {
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
 
 
 
